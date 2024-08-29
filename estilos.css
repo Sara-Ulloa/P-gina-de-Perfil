@@ -1,0 +1,223 @@
+body {
+    margin: 0;
+}
+.barra_superior {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(44, 43, 43);
+    border-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    border: none;
+}
+.barra_superior ul {
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+}
+.Perfil {
+    margin-right: 860px;
+    font-size: 30px;
+    color: aliceblue;
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.barrita {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.boton1 {
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+    background-color: #31c6e4;
+    border: none;
+    border-radius: 5px;
+    font-size: 22px;
+    list-style: none;
+}
+.colorcito {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #31c6e4;
+    border-bottom: 1px;
+    width: 50%;
+    height: 100px;
+    border-color: rgb(255, 255, 255);
+    margin-left: 30px;
+    border: none;
+}
+.Mapachin {
+    display: flex;
+    position: absolute;
+    width: 130px;
+    top: 160px;
+    left: 90px;
+    border-radius: 50%;
+}
+.fieldset1 {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 260px;
+    width: 50%;
+    max-width: 50%;
+    max-height: 260px;
+    border-color: rgb(255, 255, 255);
+    margin-left: 30px;
+    border-color: rgba(255, 255, 255, 0.296);
+    display: flex;
+    flex-direction: column;
+    block-size: auto;
+    display: inline-block;
+}
+.nombre {
+    padding-left: 40px;
+    padding-top: 40px;
+    color: rgb(57, 54, 54);
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color: rgb(0, 0, 0);
+}
+.boton2 {
+    color: rgb(0, 136, 255);
+    text-decoration: none;
+}
+.fieldset2 {
+    border-radius: 10px;
+    margin-top: 5px;
+    width: 50%;
+    height: 130px;
+    max-width: 50%;
+    max-height: 130px;
+    margin-left: 30px;
+    border-color: rgba(255, 255, 255, 0.452);
+    display: flex;
+    flex-direction: column;
+    display: inline-block;
+
+}
+p {
+    margin-top: -10px;
+}
+.Education {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: 700;
+    color: rgb(71, 71, 71);
+    margin-top: 5px;
+}
+.fieldset3 {
+    display: flex;
+    flex-direction: column;
+    display: inline;
+    width: 25%;
+    height: 180px;
+    display: block;
+    margin-left: 1000px;
+    margin-top: -520px;
+    padding-left: 20px;
+    border-radius: 1cm;
+    border-color: rgba(255, 255, 255, 0.327);
+}
+.Solicitudes {
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+}
+.Lista_solicitudes {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+    gap: 30px;
+    margin-left: 40px;
+}
+.Kai_SchrÖder {
+    border-radius: 6%;
+    width: 30px;
+    border-style: solid;
+    border-color: #31c6e4;
+    margin-left: -50px;
+}
+.Amira_El-Masry {
+    margin-top: 90%;
+    width: 30px;
+    border-radius: 6%;
+    border-style: solid;
+    border-color: #31c6e4;
+    margin-top: -50px;
+    margin-left: -49px;
+}
+.fieldset4 {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 330px;
+    margin-left: 1000px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 1cm;
+    border-color: rgba(255, 255, 255, 0.325);
+}
+.Tus_Conexiones {
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.Las_Conexiones {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    color: black;
+    gap: 10px;
+}
+.Adrien_Desplatz {
+    margin-top: 220px;
+    width: 30px;
+    border-radius: 5%;
+    margin-top: -100px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+.Aarav_Patel {
+    width: 30px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+.Lina_Kovacevic {
+    width: 30px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+.Mateo_Hernández {
+    width: 30px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+.Yuna_Kim {
+    width: 30px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+.Liam_OBrien {
+    width: 30px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+.si_no {
+    width: 90px;
+    margin-left: 100px;
+    margin-top: -60px;
+}
